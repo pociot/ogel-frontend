@@ -21,5 +21,5 @@ yarn start
 App is deployed to heroku under the url:
 <https://ogel.herokuapp.com/>
 
-If app empty please wait approx 30s as both fronted and backend applications are running
+If app is empty please wait approx 30s as both fronted and backend applications are running
 on free tier of heroku and require some time to wake up.
