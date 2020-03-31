@@ -10,10 +10,6 @@ import App from './components/App';
 import reducers from './reducers';
 
 axios.defaults.headers.common['Content-Type'] = "application/json";
-const token = localStorage.getItem('token');
-if (token) {
-    axios.defaults.headers.common['Authorization'] = "Bearer " + token;
-}
 
 const store = createStore(
   reducers,
